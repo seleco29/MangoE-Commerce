@@ -21,10 +21,11 @@ header:hover{
 }
 .logo{
     width: 80px;
-    margin-left: 30px;
+    
 }
 .mangoFarm{
     font-size: x-large;
+    margin-left: 10px;
 }
 .nav-list{
     list-style: none;
