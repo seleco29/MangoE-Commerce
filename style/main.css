@@ -1,51 +1,37 @@
+/* color code used
+#fff89a
+#ffc920
+#086e7d
+#1a5f7a
+*/
+
 *{
     margin: 0%;
     padding: 0%;
-    
     box-sizing: border-box;
 }
-.header{
-   
+header{
     font-family: 'Poppins', sans-serif;
-    position: relative;
-    width: 100%;
+    background-color:#fff89a;
+    color: #086e7d;
+   font-size: large;
 }
-nav{
-   
-    display: flex;
-    align-items: center;
-    padding: 0px 8%;
+header:hover{
+    color: #1a5f7a;
 }
- .logo{
-    width: 160px;
-
+.logo{
+    width: 80px;
+    margin-left: 30px;
 }
- .login{
-    margin: 0 20px; 
-    text-decoration: none;
+.mangoFarm{
+    font-size: x-large;
 }
- .basket{
-    margin: 0 20px; 
-    text-decoration: none;
-}
-nav ul{
-    flex: 1;
-text-align: center;
-}
-nav ul li{
-    display: inline-block;
+.nav-list{
     list-style: none;
-    padding-top: 7px;
-    margin: 0px 20px;
+    display: flex;
+    justify-content: center;
 }
-nav ul li a{
-    text-decoration: none;
-}
-.mainImage{
-    
-    position: absolute;
-    top: 10;
-    right: 10%;
-    height: 500px;
-    width: 500px;
+.lgnBox{
+    display: flex;
+    justify-content: center;
 }
